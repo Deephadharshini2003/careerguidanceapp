@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #e25131;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn.hide {
+    display: none;
+}
+
+.btn:hover {
+    background-color: #ff2f00;
+}
+
+.question-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.option-button {
+    display: block;
+    width: 100%;
+    background-color:#e25131;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+    background-color: #ff2f00;
+}
+
+#next-button {
+    background-color: #28a745;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#next-button:hover {
+    background-color: #218838;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e25131;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation bar */
+nav {
+    background-color:#e25131;/* Background color */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Padding inside the navigation bar */
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick to the top of the viewport */
+    left: 0; /* Stick to the left */
+    width: 100%; /* Take the full width of the viewport */
+    text-align: right; /* Align text to the left */
+}
+
+/* Style for the login link inside the navigation bar */
+nav a {
+    color: #ffffff; /* Text color */
+    text-decoration: none; /* Remove underline from the link */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Container styles */
+.container {
+    margin-top: 50px; /* Add top margin to the content to avoid overlapping with the fixed navigation bar */
+    padding: 20px;
+    /* Rest of your container styles */
+}
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:#e25131;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    /* Rest of your container styles */
+}
+/* styles.css */
+
+/* ... (Previous styles) ... */
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+}
+
+nav {
+    background-color:#e25131;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('path/to/your/background-image.jpg'); /* Replace 'path/to/your/background-image.jpg' with the actual path to your image file */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+.image-container img {
+    width: 250px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+/* ... (Additional styles if needed) ... */
+.corner-image {
+    position: absolute;
+    top: 80px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    width: 480px;;
+}
+
+
+
